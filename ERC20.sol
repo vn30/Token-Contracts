@@ -400,7 +400,7 @@ contract Ownable is Context {
 contract XYZ is ERC20, Ownable {
     constructor ()
     public
-    ERC20 ("XYZ Token", "XYZ", 18) {
+    ERC20 ("VNR Token", "VNR", 18) {
         _mint(msg.sender, 10000000E18);
     }
     
